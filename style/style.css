@@ -10,6 +10,12 @@ body {
   text-align: center;
 }
 
+img {
+  border-radius: 8px;
+  height: 25vh;
+  width: 45vh;
+}
+
 .gallery-parent {
   margin: 0 auto;
   height: 60rem;
@@ -23,8 +29,8 @@ body {
 .pd6-photo {
   height: 30rem;
   position: absolute;
-  -webkit-transform: all 3.0s;
-          transform: all 3.0s;
+  -webkit-transform: all 0.3s;
+          transform: all 0.3s;
 }
 
 .stalin {
@@ -47,11 +53,23 @@ body {
           transform: scale(1.3);
   outline: 1rem solid #222;
   z-index: 2;
+  -webkit-transition: 2.0s;
+  transition: 2.0s;
 }
 
 .gallery:hover .pd6-photo:not(:hover) {
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
   opacity: 0.3;
+}
+
+.gallery-parent2 {
+  margin: 0 auto;
+  height: 60rem;
+  width: 40rem;
+}
+
+.gallery2 {
+  position: absolute;
 }
 /*# sourceMappingURL=style.css.map */

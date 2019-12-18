@@ -9,6 +9,14 @@ body {
     text-align: center;
     }
 
+img{
+    border-radius: 8px;
+    height: 25vh;
+    width: 45vh;
+}
+    
+    
+
 .gallery-parent {
     //text-align: center;
     margin: 0 auto;
@@ -24,7 +32,7 @@ body {
 .pd6-photo {
     height: 30rem;
     position: absolute;
-    transform: all 3.0s;
+    transform: all 0.3s;
  }
 
  .stalin {
@@ -47,9 +55,25 @@ body {
      transform: scale(1.3);
      outline: 1rem solid #222;
      z-index: 2;
+     transition: 2.0s;
  }
  
  .gallery:hover .pd6-photo:not(:hover){
      transform: scale(0.5);
      opacity: 0.3;
- }
+     }
+
+.gallery-parent2{
+     //text-align: center;
+    margin: 0 auto;
+    //width: 60rem;
+    height: 60rem;
+    width: 40rem;
+}
+
+.gallery2{
+    position: absolute;
+}
+
+
+
