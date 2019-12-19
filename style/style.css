@@ -72,4 +72,11 @@ img {
 .gallery2 {
   position: absolute;
 }
+
+.kangeroo:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: all 1.0s;
+  transition: all 1.0s;
+}
 /*# sourceMappingURL=style.css.map */
