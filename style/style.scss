@@ -146,7 +146,29 @@ border-radius: 10rem;
     opacity: 0;
 }
 
+.animation-parent{
+    width: 20rem;
+    height: 40rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-
+.animation {
+    animation-duration: 5s;
+    animation-name: animation;
+  }
+  
+  @keyframes animation {
+    from {
+      margin-left: 700%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
